@@ -1,0 +1,21 @@
+{
+  "name": "Portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "postcss-cli": "^9.0.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.3.11",
+    "tailwindcss": "^2.2.19"
+  },
+  "scripts": {
+    "build": "postcss css/styles.css -o build/styles.css"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
